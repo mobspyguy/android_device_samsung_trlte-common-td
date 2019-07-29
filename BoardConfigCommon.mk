@@ -112,6 +112,7 @@ BOARD_CUSTOM_BOOTIMG_MK := hardware/samsung/mkbootimg.mk
 TARGET_KERNEL_CONFIG := apq8084_sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/apq8084
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_RAMDISK_OFFSET     := 0x02600000
 BOARD_KERNEL_TAGS_OFFSET := 0x02400000
